@@ -1,1 +1,1 @@
-Learning Basic JavaScript from freeCodeCamp (FCC) by Building a Role Playing Game.
+Learning Basic JavaScript From freeCodeCamp (FCC) By Building a Role Playing Game. Name Of Game Is RPG - Dragon Repeller.
