@@ -1,1 +1,1 @@
-This is an empty README file.
+- Learning Basic JavaScript From freeCodeCamp (FCC) By Building a Role Playing Game. Name Of Game Is RPG - Dragon Repeller.
