@@ -1,26 +1,22 @@
-const checkButton = document.getElementById("check-btn");
-const input = document.getElementById("text-input").value;
-const result = document.getElementById("result");
+document.addEventListener("DOMContentLoaded", function () {
+  const checkBtn = document.getElementById("check-btn");
+  const resultDiv = document.getElementById("result");
 
-function palindrome(str) {
-  const alphanumericArray = str.toLowerCase().match(/[a-z0-9]/g);
-  const cleanString = alphanumericArray.join("");
-  const reverseString = alphanumericArray.reverse().join("");
+  checkBtn.addEventListener("click", function () {
+    const userInput = document.getElementById("text-input").value;
+    const isPalindrome = checkPalindrome(userInput);
+    displayResult(isPalindrome);
+  });
 
-  if (cleanString === reverseString) {
-    result.innerHTML = `${input} is a palindrome`;
-  } else {
-    result.innerHTML = `${input} is not a palindrome`;
+  function checkPalindrome(str) {
+    const cleanStr = str.toLowerCase().replace(/[^a-z0-9]/g, "");
+    const reversedStr = cleanStr.split("").reverse().join("");
+    return cleanStr === reversedStr;
   }
-}
 
-function validInput() {
-  if (input === "") {
-    alert("Please input a value");
-    return;
-  } else {
-    palindrome(input);
+  function displayResult(isPalindrome) {
+    resultDiv.innerHTML = isPalindrome
+      ? '<span style="color: #4caf50;">Yes, it is a palindrome!</span>'
+      : '<span style="color: #e53935;">No, it is not a palindrome.</span>';
   }
-}
-
-checkButton.addEventListener("click", validInput);
+});
