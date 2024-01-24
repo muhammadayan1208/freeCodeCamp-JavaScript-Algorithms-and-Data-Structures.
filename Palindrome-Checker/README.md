@@ -1,1 +1,1 @@
-Learning Basic JavaScript Algorithms, Data Structures By Building A Palindrome Checker.
+Learning Basic JavaScript Algorithms, Data Structures By Building a Palindrome Checker.
