@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   function displayResult(isPalindrome) {
     resultDiv.innerHTML = isPalindrome
-      ? '<span style="color: #4caf50;">Yes, it is a palindrome!</span>'
-      : '<span style="color: #e53935;">No, it is not a palindrome.</span>';
+      ? '<span style="color: #26ff00;">Yes, it is a palindrome!</span>'
+      : '<span style="color: #ff0000;">No, it is not a palindrome.</span>';
   }
 });

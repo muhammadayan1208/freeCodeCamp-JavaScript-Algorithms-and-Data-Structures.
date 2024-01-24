@@ -7,19 +7,13 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background-color: #000;
+  background-color: #000000;
   color: #fff;
 }
 
-header {
-  text-align: center;
-  background-color: rgba(0, 0, 0, 0.2);
-  padding: 15px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-}
-
 h1 {
-  color: #ecf0f1;
+  text-decoration: underline;
+  color: #ffffff;
   margin: 0;
   font-size: 24px;
 }
@@ -42,9 +36,10 @@ label {
 }
 
 input {
-  width: 100%;
+  width: 85%;
   padding: 8px;
-  margin-bottom: 10px;
+  margin-top: 15px;
+  margin-bottom: 20px;
   box-sizing: border-box;
   background-color: #333;
   color: #fff;
@@ -53,8 +48,8 @@ input {
 }
 
 button {
-  background-color: #e90b0b;
-  color: #ecf0f1;
+  background-color: #ffffff;
+  color: #000000;
   padding: 10px 20px;
   border: none;
   border-radius: 4px;
@@ -62,7 +57,21 @@ button {
 }
 
 button:hover {
-  background-color: #b50000;
+  background-color: #d6d6d6;
+}
+
+.palindrome-definition-div {
+  width: 29%;
+  font-size: 1.3rem;
+  min-height: 140px;
+  background-color: #ffffff;
+  color: black;
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #result {
