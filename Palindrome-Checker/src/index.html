@@ -9,22 +9,31 @@
 </head>
 
 <body>
-    <header>
-        <h1>"PALINDROME CHECKER"</h1>
-    </header>
 
     <main>
-        <label for="text-input"><b>Enter Text To Check For a Palindrome:</b></label>
-        <input type="text" id="text-input" placeholder="Enter Text Here!" />
-        <button id="check-btn">Check Palindrome</button>
-        <div id="result"></div>
+        <img class="freecodecamp-logo" src="https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg"
+            alt="freeCodeCamp Logo">
+
+        <header>
+            <h1 class="title">Is it a Palindrome?</h1>
+        </header>
+
+        <div class="palindrome-div">
+            <label for="text-input">Enter in text to check for a palindrome:
+            </label>
+            <input class="palindrome-input" id="text-input" value="" type="text">
+            <button class="palindrome-btn" id="check-btn">Check</button>
+            <div class="results-div hidden" id="result"></div>
+        </div>
+        <div class="palindrome-definition-div">
+            <p class="palindrome-definition">
+                <span role="img" aria-label="light-bulb">💡</span>
+                A <i>"PALINDROME"</i> is a word or sentence that's spelled the same way
+                both forward and backward, ignoring punctuation, case, and spacing.
+            </p>
+        </div>
     </main>
-    <div class="palindrome-definition-div">
-        <p class="palindrome-definition">
-            A <i>"PALINDROME"</i> is a word or sentence that's spelled the same way
-            both forward and backward, ignoring punctuation, case, and spacing.
-        </p>
-    </div>
+
     <script src="script.js"></script>
 </body>
 
