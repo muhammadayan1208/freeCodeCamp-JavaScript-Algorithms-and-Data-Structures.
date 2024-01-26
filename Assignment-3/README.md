@@ -3,7 +3,3 @@
 - Learning Basic JavaScript Form freeCodeCamp (FCC) By Building a Calorie Counter.
 
 - Learning Basic JavaScript String and Array Methods From freeCodeCamp (FCC) By Building a Music Player.
-
-- Learning Basic JavaScript From freeCodeCamp (FCC) By Building the Date Object a Date Formatter.
-
-- Learning Modern JavaScript Methods From freeCodeCamp (FCC) By Building Football Team Cards.
