@@ -10,4 +10,4 @@
 
 - Learning JavaScript localStorage from freeCodeCamp (FCC) By Building a Todo App.
 
-- Learning JavaScript Recursion from freeCodeCamp By Building a Decimal to Binary Converter.
+- Learning JavaScript Recursion from freeCodeCamp By Building a Decimal To Binary Converter.
