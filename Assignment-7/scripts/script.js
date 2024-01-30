@@ -58,7 +58,13 @@ const showAnimation = () => {
     }, obj.removeElDelay);
   });
 
-  setTimeout(() => {}, 20000);
+  setTimeout(() => {
+    function decimalToBinary(decimalNumber) {
+      return (decimalNumber >>> 0).toString(2);
+    }
+
+    document.getElementById("result").textContent = decimalToBinary(5);
+  }, 20000);
 };
 
 const checkUserInput = () => {
