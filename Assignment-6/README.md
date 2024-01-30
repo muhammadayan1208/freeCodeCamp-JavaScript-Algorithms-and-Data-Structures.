@@ -9,5 +9,3 @@
 - Learning Modern JavaScript Methods From freeCodeCamp (FCC) By Building Football Team Cards.
 
 - Learning JavaScript localStorage from freeCodeCamp (FCC) By Building a Todo App.
-
-- Learning JavaScript Recursion from freeCodeCamp By Building a Decimal to Binary Converter.
