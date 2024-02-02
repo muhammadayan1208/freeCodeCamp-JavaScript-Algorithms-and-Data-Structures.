@@ -13,7 +13,3 @@
 - Learning JavaScript Recursion from freeCodeCamp By Building a Decimal To Binary Converter.
 
 - Learning JavaScript Basic Algorithmic Thinking from freeCodeCamp By Building a Number Sorter.
-
-- Learning JavaScript Advanced Array Methods By Building a Statistics Calculator.
-
-- Learning JavaScript Functional Programming By Building a Spreadsheet, Not Started.
