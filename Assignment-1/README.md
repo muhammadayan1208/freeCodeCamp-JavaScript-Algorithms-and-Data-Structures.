@@ -1,1 +1,1 @@
-Learning Basic JavaScript From freeCodeCamp (FCC) By Building a Role Playing Game. Name Of Game Is RPG - Dragon Repeller.
+- Learning Basic JavaScript From freeCodeCamp (FCC) Project Building a Role Playing Game. Name Of Game Is RPG - Dragon Repeller. This is a very good practice to learn new things about JavaScript. It helps to improve JavaScript skills and to learn more new concepts about the language.
