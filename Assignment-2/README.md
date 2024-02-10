@@ -1,1 +1,1 @@
-- Learning Basic JavaScript Form freeCodeCamp (FCC) Project of Building a Calorie Counter. It is a very common and useful project to learn and improve JavaScript.
+- Learning Basic JavaScript Form freeCodeCamp (FCC) Project Of Building a Calorie Counter. It is a very common and useful project to learn and improve JavaScript.
