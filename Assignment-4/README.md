@@ -1,1 +1,1 @@
-- Learning Basic JavaScript From freeCodeCamp (FCC) Project Of Building the Date Object a Date Formatter. This is a very good practice to learn new things about JavaScript.
+- Learning Basic JavaScript From freeCodeCamp (FCC) Project Of Building The Date Object a Date Formatter. This is a very good practice to learn new things about JavaScript.

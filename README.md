@@ -4,4 +4,4 @@
 
 - Learning Basic JavaScript String and Array Methods From freeCodeCamp (FCC) Project Of Building a Music Player. It helps to improve JavaScript skills and to learn more new concepts about the language.
 
-- Learning Basic JavaScript From freeCodeCamp (FCC) Project Of Building the Date Object a Date Formatter. This is a very good practice to learn new things about JavaScript.
+- Learning Basic JavaScript From freeCodeCamp (FCC) Project Of Building The Date Object a Date Formatter. This is a very good practice to learn new things about JavaScript.
