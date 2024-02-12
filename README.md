@@ -6,6 +6,6 @@
 
 - Project-4 Of Learning Basic JavaScript From freeCodeCamp (FCC) Project Of Building The Date Object a Date Formatter. This is a very good practice to learn new things about JavaScript.
 
-- Project-5 Of Learning Modern JavaScript Methods From freeCodeCamp (FCC) By Building Football Team Cards. This is a very good practice to learn new things about JavaScript. It helps to improve JavaScript skills and to learn more new concepts about the language.
+- Project-5 Of Learning Modern JavaScript Methods From freeCodeCamp (FCC) Project Of Building Football Team Cards. This is a very good practice to learn new things about JavaScript. It helps to improve JavaScript skills and to learn more new concepts about the language.
 
-- Project-6 Of Learning JavaScript localStorage from freeCodeCamp (FCC) By Building a Todo App. This is a very good practice to learn new things about JavaScript. It helps to improve JavaScript skills and to learn more new concepts about the language.
+- Project-6 Of Learning JavaScript localStorage from freeCodeCamp (FCC) Project Of Building a Todo App. This is a very good practice to learn new things about JavaScript. It helps to improve JavaScript skills and to learn more new concepts about the language.

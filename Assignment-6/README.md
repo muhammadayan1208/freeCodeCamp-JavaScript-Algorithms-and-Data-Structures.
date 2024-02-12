@@ -1,1 +1,1 @@
-- Project-6 Of Learning JavaScript localStorage from freeCodeCamp (FCC) By Building a Todo App. This is a very good practice to learn new things about JavaScript. It helps to improve JavaScript skills and to learn more new concepts about the language.
+- Project-6 Of Learning JavaScript localStorage from freeCodeCamp (FCC) Project Of Building a Todo App. This is a very good practice to learn new things about JavaScript. It helps to improve JavaScript skills and to learn more new concepts about the language.
