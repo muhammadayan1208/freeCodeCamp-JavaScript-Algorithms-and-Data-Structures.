@@ -1,17 +1,1 @@
-- Learning Basic JavaScript From freeCodeCamp (FCC) By Building a Role Playing Game. Name Of Game Is RPG - Dragon Repeller.
-
-- Learning Basic JavaScript Form freeCodeCamp (FCC) By Building a Calorie Counter.
-
-- Learning Basic JavaScript String and Array Methods From freeCodeCamp (FCC) By Building a Music Player.
-
-- Learning Basic JavaScript From freeCodeCamp (FCC) By Building the Date Object a Date Formatter.
-
-- Learning Modern JavaScript Methods From freeCodeCamp (FCC) By Building Football Team Cards.
-
-- Learning JavaScript localStorage from freeCodeCamp (FCC) By Building a Todo App.
-
-- Learning JavaScript Recursion from freeCodeCamp By Building a Decimal To Binary Converter.
-
-- Learning JavaScript Basic Algorithmic Thinking from freeCodeCamp By Building a Number Sorter.
-
-- Learning JavaScript Advanced Array Methods By Building a Statistics Calculator.
+- Project-9 Of Learning JavaScript Advanced Array Methods from freeCodeCamp Project Of Building a Statistics Calculator. This is a very good practice to learn new things about JavaScript. It helps to improve JavaScript skills and to learn more new concepts about the language.
