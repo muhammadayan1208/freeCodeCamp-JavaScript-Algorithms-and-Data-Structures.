@@ -17,3 +17,5 @@
 - Project-9 Of Learning JavaScript Advanced Array Methods from freeCodeCamp Project Of Building a Statistics Calculator. This is a very good practice to learn new things about JavaScript. It helps to improve JavaScript skills and to learn more new concepts about the language.
 
 - Project-10 Of Learning JavaScript Functional Programming from freeCodeCamp Project Of Building a Spreadsheet. This is a very good practice to learn new things about JavaScript. It helps to improve JavaScript skills and to learn more new concepts about the language.
+
+Project-11 Of Learning JavaScript Regular Expressions from freeCodeCamp Project Of Building a Spam Filter. This is a very good practice to learn Regular Expressions of JavaScript. It helps to improve JavaScript skills and to learn more new concepts about the language.
