@@ -1,1 +1,1 @@
-Project-11 Of Learning JavaScript Regular Expressions from freeCodeCamp Project Of Building a Spam Filter. This is a very good practice to learn Regular Expressions of JavaScript. It helps to improve JavaScript skills and to learn more new concepts about the language.
+- Project-11 Of Learning JavaScript Regular Expressions from freeCodeCamp Project Of Building a Spam Filter. This is a very good practice to learn Regular Expressions of JavaScript. It helps to improve JavaScript skills and to learn more new concepts about the language.
