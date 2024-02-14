@@ -37,7 +37,6 @@ h1 {
   max-width: 480px;
   margin: 15px 0;
   text-align: var(--center-text);
-  text-decoration: underline;
 }
 
 .phone-container {
@@ -65,6 +64,20 @@ h1 {
   height: 10px;
   border-radius: 50%;
   margin: auto;
+}
+
+#results-div {
+  overflow-y: auto;
+  height: 265px;
+  width: 100%;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-size: 1.2rem;
+  padding: 5px;
+  text-align: var(--center-text);
+  margin: 10px 0;
 }
 
 label {
