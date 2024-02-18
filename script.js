@@ -63,6 +63,27 @@ class Platform {
   }
 }
 
+class CheckPoint {
+  constructor(x, y) {
+    this.position = {
+      x,
+      y,
+    };
+    this.width = 40;
+    this.height = 70;
+  }
+
+  draw() {
+    ctx.fillStyle = "#f1be32";
+    ctx.fillRect(this.position.x, this.position.y, this.width, this.height);
+  }
+  claim() {
+    this.width = 0;
+    this.height = 0;
+    this.position.y = Infinity;
+  }
+}
+
 const player = new Player();
 
 const platformPositions = [
@@ -84,12 +105,26 @@ const platforms = platformPositions.map(
   (platform) => new Platform(platform.x, platform.y)
 );
 
+const checkpointPositions = [
+  { x: 1170, y: 80 },
+  { x: 2900, y: 330 },
+  { x: 4800, y: 80 },
+];
+
+const checkpoints = checkpointPositions.map(
+  (checkpoint) => new CheckPoint(checkpoint.x, checkpoint.y)
+);
+
 const animate = () => {
   requestAnimationFrame(animate);
   ctx.clearRect(0, 0, canvas.width, canvas.height);
 
   platforms.forEach((platform) => {
     platform.draw();
+  });
+
+  checkpoints.forEach((checkpoint) => {
+    checkpoint.draw();
   });
 
   player.update();
@@ -105,9 +140,17 @@ const animate = () => {
       platforms.forEach((platform) => {
         platform.position.x -= 5;
       });
+
+      checkpoints.forEach((checkpoint) => {
+        checkpoint.position.x -= 5;
+      });
     } else if (keys.leftKey.pressed && isCheckpointCollisionDetectionActive) {
       platforms.forEach((platform) => {
         platform.position.x += 5;
+      });
+
+      checkpoints.forEach((checkpoint) => {
+        checkpoint.position.x += 5;
       });
     }
   }
@@ -117,7 +160,48 @@ const animate = () => {
       player.position.y + player.height <= platform.position.y,
       player.position.y + player.height + player.velocity.y >=
         platform.position.y,
+      player.position.x >= platform.position.x - player.width / 2,
+      player.position.x <=
+        platform.position.x + platform.width - player.width / 3,
     ];
+
+    if (collisionDetectionRules.every((rule) => rule)) {
+      player.velocity.y = 0;
+      return;
+    }
+
+    const platformDetectionRules = [
+      player.position.x >= platform.position.x - player.width / 2,
+      player.position.x <=
+        platform.position.x + platform.width - player.width / 3,
+      player.position.y + player.height >= platform.position.y,
+      player.position.y <= platform.position.y + platform.height,
+    ];
+
+    if (platformDetectionRules.every((rule) => rule)) {
+      player.position.y = platform.position.y + player.height;
+      player.velocity.y = gravity;
+    }
+  });
+
+  checkpoints.forEach((checkpoint, index) => {
+    const checkpointDetectionRules = [
+      player.position.x >= checkpoint.position.x,
+      player.position.y >= checkpoint.position.y,
+      player.position.y + player.height <=
+        checkpoint.position.y + checkpoint.height,
+      isCheckpointCollisionDetectionActive,
+    ];
+
+    if (checkpointDetectionRules.every((rule) => rule)) {
+      checkpoint.claim();
+
+      if (index === checkpoints.length - 1) {
+        isCheckpointCollisionDetectionActive = false;
+        showCheckpointScreen("You reached the final checkpoint!");
+        movePlayer("ArrowRight", 0, false);
+      }
+    }
   });
 };
 
@@ -163,6 +247,14 @@ const startGame = () => {
   canvas.style.display = "block";
   startScreen.style.display = "none";
   animate();
+};
+
+const showCheckpointScreen = (msg) => {
+  checkpointScreen.style.display = "block";
+  checkpointMessage.textContent = msg;
+  if (isCheckpointCollisionDetectionActive) {
+    setTimeout(() => (checkpointScreen.style.display = "none"), 2000);
+  }
 };
 
 startBtn.addEventListener("click", startGame);
