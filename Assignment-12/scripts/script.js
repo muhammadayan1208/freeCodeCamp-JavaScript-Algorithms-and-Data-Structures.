@@ -8,6 +8,7 @@ const cartSubTotal = document.getElementById("subtotal");
 const cartTaxes = document.getElementById("taxes");
 const cartTotal = document.getElementById("total");
 const showHideCartSpan = document.getElementById("show-hide-cart");
+
 let isCartShowing = false;
 
 const products = [
