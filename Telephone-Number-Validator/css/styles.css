@@ -66,20 +66,6 @@ h1 {
   margin: auto;
 }
 
-#results-div {
-  overflow-y: auto;
-  height: 265px;
-  width: 100%;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  font-size: 1.2rem;
-  padding: 5px;
-  text-align: var(--center-text);
-  margin: 10px 0;
-}
-
 label {
   margin: 10px auto 5px;
 }
@@ -94,12 +80,6 @@ label {
   width: 90%;
   height: 42px;
   font-size: 16px;
-}
-
-#results-div {
-  overflow-y: auto;
-  height: 265px;
-  width: 100%;
 }
 
 .phone-footer {
@@ -123,4 +103,17 @@ label {
   background-image: linear-gradient(#ffffff, #928d86);
   border-color: #ffffff;
   border-width: 3px;
+}
+
+#results-div {
+  overflow-y: auto;
+  height: 265px;
+  width: 100%;
+}
+
+.results-text {
+  font-size: 1.2rem;
+  padding: 5px;
+  text-align: var(--center-text);
+  margin: 10px 0;
 }
