@@ -28,6 +28,8 @@
 
 - Project-15 Of Learning JavaScript Fetch and Promises from freeCodeCamp Project Of Building an fCC Authors Page. It helps to get more knowledge about freeCodeCamp authors and also improve JavaScript skills and to learn more new concepts about the language.
 
+- Project-16 Of Learning JavaScript Asynchronous Programming from freeCodeCamp Project Of Building an fCC Forum Leaderboard. It helps to get more knowledge about freeCodeCamp courses and activities on the website of freeCodeCamp (FCC).
+
 - Learning Basic JavaScript Algorithms, Data Structures By Building a Palindrome Checker. From this project we can learn and improve the JavaScript Algorithms and Data Structures. This is a good practice to improve JavaScript skills.
 
 - Learning JavaScript from freeCodeCamp By Building a Roman Numeral Converter ProjectCertification Project. From this project we can learn and improve the JavaScript Algorithms and Data Structures. This is a good practice to improve JavaScript skills.
