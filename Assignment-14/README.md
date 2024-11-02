@@ -1,0 +1,1 @@
+- Project-14 Of Learning JavaScript Intermediate Algorithmic Thinking from freeCodeCamp Project Of Building a Dice Game. By building this game we can learn new concepts about the JavaScript. This project of building this dice game is a good practice to improve our JavaScript concepts and to learn new things about JavaScript.
