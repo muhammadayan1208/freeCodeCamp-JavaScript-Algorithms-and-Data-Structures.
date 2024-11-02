@@ -12,6 +12,10 @@
 
 - Project-7 Of Learning JavaScript Recursion from freeCodeCamp Project Of Building a Decimal To Binary Converter. This is a very good practice to learn new things about JavaScript. It helps to improve JavaScript skills and to learn more new concepts about the language.
 
+- Project-8 Of Learning JavaScript Basic Algorithmic Thinking from freeCodeCamp Project Of Building a Number Sorter. It helps to improve JavaScript skills and to learn more new concepts about the language. This is a very good practice to learn new things about JavaScript.
+
+- Project-9 Of Learning JavaScript Advanced Array Methods from freeCodeCamp Project Of Building a Statistics Calculator. This is a very good practice to learn new things about JavaScript. It helps to improve JavaScript skills and to learn more new concepts about the language.
+
 - Learning Basic JavaScript Algorithms, Data Structures By Building a Palindrome Checker. From this project we can learn and improve the JavaScript Algorithms and Data Structures. This is a good practice to improve JavaScript skills.
 
 - Learning JavaScript from freeCodeCamp By Building a Roman Numeral Converter ProjectCertification Project. From this project we can learn and improve the JavaScript Algorithms and Data Structures. This is a good practice to improve JavaScript skills.
