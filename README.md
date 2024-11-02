@@ -20,6 +20,8 @@
 
 - Project-11 Of Learning JavaScript Regular Expressions from freeCodeCamp Project Of Building a Spam Filter. This is a very good practice to learn Regular Expressions of JavaScript. It helps to improve JavaScript skills and to learn more new concepts about the language.
 
+- Project-12 Of Learning JavaScript Basic (OOP) Object-Oriented Programming from freeCodeCamp Project Of Building a Shopping Cart. This is a very good practice to learn new things about the JavaScript. It helps to improve JavaScript skills and to learn more new concepts about the language.
+
 - Learning Basic JavaScript Algorithms, Data Structures By Building a Palindrome Checker. From this project we can learn and improve the JavaScript Algorithms and Data Structures. This is a good practice to improve JavaScript skills.
 
 - Learning JavaScript from freeCodeCamp By Building a Roman Numeral Converter ProjectCertification Project. From this project we can learn and improve the JavaScript Algorithms and Data Structures. This is a good practice to improve JavaScript skills.
