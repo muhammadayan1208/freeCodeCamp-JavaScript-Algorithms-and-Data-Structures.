@@ -1,0 +1,1 @@
+- Project-15 Of Learning JavaScript Fetch and Promises from freeCodeCamp Project Of Building an fCC Authors Page. It helps to get more knowledge about freeCodeCamp authors and also improve JavaScript skills and to learn more new concepts about the language.
