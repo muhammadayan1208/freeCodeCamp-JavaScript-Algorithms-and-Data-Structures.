@@ -1,0 +1,1 @@
+- Project-8 Of Learning JavaScript Basic Algorithmic Thinking from freeCodeCamp Project Of Building a Number Sorter. It helps to improve JavaScript skills and to learn more new concepts about the language. This is a very good practice to learn new things about JavaScript.
