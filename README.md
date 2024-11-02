@@ -22,6 +22,8 @@
 
 - Project-12 Of Learning JavaScript Basic (OOP) Object-Oriented Programming from freeCodeCamp Project Of Building a Shopping Cart. This is a very good practice to learn new things about the JavaScript. It helps to improve JavaScript skills and to learn more new concepts about the language.
 
+- Project-13 Of Learning JavaScript Intermediate (OOP) Object-Oriented Programming from freeCodeCamp Project Of Building a Platformer Game. By building this game we can learn new concepts about the JavaScript. This project of building a Platformer game is a good practice to improve our JavaScript concepts and to learn new things about JavaScript.
+
 - Learning Basic JavaScript Algorithms, Data Structures By Building a Palindrome Checker. From this project we can learn and improve the JavaScript Algorithms and Data Structures. This is a good practice to improve JavaScript skills.
 
 - Learning JavaScript from freeCodeCamp By Building a Roman Numeral Converter ProjectCertification Project. From this project we can learn and improve the JavaScript Algorithms and Data Structures. This is a good practice to improve JavaScript skills.
