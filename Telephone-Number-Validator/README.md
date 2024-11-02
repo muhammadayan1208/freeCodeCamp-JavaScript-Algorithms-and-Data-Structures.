@@ -1,0 +1,1 @@
+- Learning JavaScript from freeCodeCamp by Project Of Building a Telephone Number Validator ProjectCertification Project. It is a good way to improve and learn new things about JavaScript.
