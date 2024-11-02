@@ -15,4 +15,3 @@
 - Learning Basic JavaScript Algorithms, Data Structures By Building a Palindrome Checker. From this project we can learn and improve the JavaScript Algorithms and Data Structures. This is a good practice to improve JavaScript skills.
 
 - Learning JavaScript from freeCodeCamp By Building a Roman Numeral Converter ProjectCertification Project. From this project we can learn and improve the JavaScript Algorithms and Data Structures. This is a good practice to improve JavaScript skills.
-
